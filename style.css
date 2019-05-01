@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+* {margin: 0; padding: 0;}
+body {      
+  font-family: Abel;        
+  color: #34495e;
+}
+
+.btn { cursor: pointer; }
+.js-clock {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;      
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  line-height: 1;      
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;      
+}
+
+.js-toDoForm input[type="text"],
+.js-form input[type="text"] {
+  width: 300px;
+  height: 40px;
+  color: #333;
+  border: 3px solid black;
+  text-align: center;
+  font-size: 22px;
+}
+
+.js-toDoForm input[type="text"] {
+  border-color: red;
+}
+
+.clicked {
+  color: #7f8c8d;
+}
+
+.form,
+.greeting {
+  display: none;
+  margin-top: 12px;
+}
+
+.showing {
+  display: block;
+}
+
+h4 {  
+  color: deepskyblue;
+  font-size: 28px;
+}
+
+.js-toDoList {
+  width: 300px;
+}
